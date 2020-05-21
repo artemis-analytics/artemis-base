@@ -15,9 +15,13 @@
 name: artemis-base
 
 channels:
+    - artemis-analytics
     - conda-forge
 dependencies:
     - pip # keep conda happy
     - python=3.7.3
     - pkg-config
-    - protobuf 
+    - protobuf
+    - conda-build
+    - anaconda-client
+    - artemis-format
